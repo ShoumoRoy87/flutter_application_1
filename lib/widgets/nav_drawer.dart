@@ -14,7 +14,9 @@ class NavDrawer extends StatelessWidget {
           DrawerHeader(
             padding: EdgeInsets.all(0),
             child: UserAccountsDrawerHeader(
-              decoration: BoxDecoration(color: Colors.blueGrey),
+              decoration: BoxDecoration(
+                color: const Color.fromARGB(255, 70, 173, 224),
+              ),
               accountName: Text("Name"),
               accountEmail: Text("Email"),
               currentAccountPicture: Image.asset("assets/images/flutter.png"),

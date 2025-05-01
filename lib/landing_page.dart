@@ -15,7 +15,7 @@ class LandingPage extends StatefulWidget {
 class _LandingPageState extends State<LandingPage> {
   final buttonStyle = ElevatedButton.styleFrom(
     minimumSize: Size(150, 80),
-    backgroundColor: Colors.blueGrey,
+    backgroundColor: const Color.fromARGB(255, 11, 2, 20),
   );
   @override
   Widget build(BuildContext context) {

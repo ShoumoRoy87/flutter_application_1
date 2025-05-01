@@ -48,7 +48,10 @@ class GridviewPage extends StatelessWidget {
       },
     ];
     return Scaffold(
-      appBar: AppBar(title: Text("GridView"), backgroundColor: Colors.blueGrey),
+      appBar: AppBar(
+        title: Text("GridView"),
+        backgroundColor: const Color.fromARGB(255, 146, 81, 132),
+      ),
       body: GridView.builder(
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2,

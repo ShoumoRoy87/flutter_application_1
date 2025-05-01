@@ -48,7 +48,10 @@ class ListviewPage extends StatelessWidget {
       },
     ];
     return Scaffold(
-      appBar: AppBar(title: Text("ListView"), backgroundColor: Colors.blueGrey),
+      appBar: AppBar(
+        title: Text("ListView"),
+        backgroundColor: const Color.fromARGB(255, 91, 65, 217),
+      ),
       body: ListView.builder(
         itemCount: myItems.length,
         itemBuilder: (context, index) {

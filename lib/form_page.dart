@@ -9,13 +9,16 @@ class FormPage extends StatelessWidget {
       borderRadius: BorderRadius.all(Radius.circular(40)),
     );
     return Scaffold(
-      appBar: AppBar(title: Text("My Form"), backgroundColor: Colors.blueGrey),
+      appBar: AppBar(
+        title: Text("My Form"),
+        backgroundColor: const Color.fromARGB(255, 210, 172, 94),
+      ),
       body: Center(
         child: Container(
           height: 500,
           width: 300,
           decoration: BoxDecoration(
-            color: const Color.fromARGB(255, 85, 102, 110),
+            color: const Color.fromARGB(255, 14, 37, 48),
             border: Border.all(color: Colors.white, width: 2),
             borderRadius: BorderRadius.all(Radius.circular(20)),
           ),

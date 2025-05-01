@@ -42,7 +42,7 @@ class _ConverterPageState extends State<ConverterPage> {
   Widget build(Object context) {
     final border = OutlineInputBorder(
       borderSide: BorderSide(
-        color: Colors.brown,
+        color: const Color.fromARGB(255, 189, 231, 75),
         width: 2,
         style: BorderStyle.solid,
       ),
@@ -50,7 +50,7 @@ class _ConverterPageState extends State<ConverterPage> {
     );
 
     final textStyle = TextStyle(
-      color: Colors.brown,
+      color: const Color.fromARGB(255, 75, 56, 47),
       fontSize: 23,
       fontWeight: FontWeight.bold,
     );
@@ -60,7 +60,7 @@ class _ConverterPageState extends State<ConverterPage> {
         title: Text("Currency Converter"),
         elevation: 5,
         centerTitle: true,
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: const Color.fromARGB(255, 113, 46, 185),
       ),
       body: Center(
         child: SizedBox(
@@ -79,7 +79,10 @@ class _ConverterPageState extends State<ConverterPage> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text('USD ', style: textStyle),
-                      Icon(Icons.arrow_forward, color: Colors.brown),
+                      Icon(
+                        Icons.arrow_forward,
+                        color: const Color.fromARGB(255, 83, 48, 35),
+                      ),
                       Text(' BDT', style: textStyle),
                     ],
                   ),
